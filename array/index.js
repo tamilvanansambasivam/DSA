@@ -23,3 +23,17 @@ console.log(arr);
 
 arr.shift();
 console.log(arr);
+
+// for loop
+
+for (let i = 0; i < arr.length; i++) {
+  console.log(arr[i]);
+}
+
+// for of
+for (let num of arr) {
+  console.log(`arr:${arr} \nnums:${num}`);
+}
+
+// for each
+arr.forEach((num, index) => console.log(num, index));
