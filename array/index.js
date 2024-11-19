@@ -1,4 +1,4 @@
-// common operations
+// Perform some operation like access, add, remove
 
 // Accessing Elements
 
