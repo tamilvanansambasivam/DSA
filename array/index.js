@@ -1,11 +1,25 @@
-// array is created by using array literals
-const arr = [14, 4, 32, 2, 3];
+// common operations
 
-// array is created by using the Array constructor
-const array = new Array(5);
+// Accessing Elements
 
-//array is created by using the Array constructor with values
-const arrayWithValue = new Array(5, 3, 4, 5);
+let arr = [10, 20, 30];
+console.log(arr[0]); // 10
+console.log(arr); // [10,20,30]
+arr[1] = 25; // modify element
 
-console.log(arrayWithValue); // [ 5, 3, 4, 5 ]
-console.log(array); // [ <5 empty items>]
+console.log(arr); // [10,25,30]
+
+// Adding Elements
+
+arr.push(40);
+arr.unshift(0);
+
+console.log(arr);
+
+// Removing Elements
+
+arr.pop();
+console.log(arr);
+
+arr.shift();
+console.log(arr);
