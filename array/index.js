@@ -1,9 +1,11 @@
-// an array is a collection of elements stored in continuous memory location.
+// array is created by using array literals
+const arr = [14, 4, 32, 2, 3];
 
-const arr = [1, 2, 3, 4, 5];
+// array is created by using the Array constructor
+const array = new Array(5);
 
-const mixed = [1, true, "hello", 2, undefined, 9];
+//array is created by using the Array constructor with values
+const arrayWithValue = new Array(5, 3, 4, 5);
 
-console.log(arr);
-
-console.log(mixed);
+console.log(arrayWithValue); // [ 5, 3, 4, 5 ]
+console.log(array); // [ <5 empty items>]
